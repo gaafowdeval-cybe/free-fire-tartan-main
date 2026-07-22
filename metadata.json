@@ -1,0 +1,6 @@
+{
+  "name": "Tartan Omar Said FF",
+  "description": "Complete esports tournament management system for Free Fire featuring player teams, random knockout elimination brackets, payment verification, live broadcasting, and full admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

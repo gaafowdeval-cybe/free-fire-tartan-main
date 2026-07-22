@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+
+  --color-surface-lowest: #0c0e16;
+  --color-surface-low: #191b24;
+  --color-surface-main: #11131b;
+  --color-surface-container: #1d1f28;
+  --color-surface-high: #282a32;
+  --color-surface-highest: #33343e;
+  
+  --color-neon-cyan: #00f0ff;
+  --color-neon-cyan-dim: #00dbe9;
+  --color-neon-cyan-dark: #004f54;
+  
+  --color-neon-orange: #ff5e07;
+  --color-neon-orange-dim: #ffb59a;
+}
+
+/* Custom Glassmorphism & Gaming Utilities */
+.glass-card {
+  background: rgba(18, 20, 29, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel {
+  background: rgba(25, 27, 36, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.25);
+}
+
+.glow-cyan-lg {
+  box-shadow: 0 0 35px rgba(0, 240, 255, 0.4);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
+}
+
+.glow-orange {
+  box-shadow: 0 0 20px rgba(255, 94, 7, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0e16;
+}
+::-webkit-scrollbar-thumb {
+  background: #33343e;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00dbe9;
+}
